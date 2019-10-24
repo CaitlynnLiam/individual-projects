@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--Imported fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <!--CSS Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="CSS_Format.css">
+    <!--Page Title-->
+    <title>Products</title>
+    <!--Page Specific CSS-->
+    <style>
+      table.table
+        {
+          font-family: "raleway";
+          color: #FFF;
+          font-size: 35px;
+          text-align: center;
+          max-width: 100%;
+          line-height: 50px;
+        }
+      table tr td a.table_link
+        {
+          text-decoration: none;
+          color: #E1C4BD;
+          transition: color 0.7s;
+        }
+      table tr td a:hover.table_link
+        {
+          color: #DB7E67;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="title title_background">
+      <h1>Digital Espresso</h1>
+    </div>
+    <nav>
+      <ul>
+        <li class="navbar"><a href="index.html" class="navbar">home</a></li>
+        <li class="navbar"><a href="about.html" class="navbar">about</a></li>
+        <li class="navbar"><a href="products.html" class="active">products</a></li>
+        <li class="navbar"><a href="branches.html" class="navbar">branches</a></li>
+      </ul>
+    </nav>
+    <h2 class="content_title">Products</h2>
+    <div class="content">
+      <center><table class="table">
+      <tr><th></th><th style="text-transform: uppercase;">Name</th><th style="text-transform: uppercase;">Price</th></tr>
+      <tr><td><img src="americano.png" width="100px"></img></td><td><a href="americano.html" class="table_link">Americano</a></td><td>125</td></tr>
+      <tr><td><img src="brewed_coffee.png" width="100px"></img></td><td><a href="brewed.html" class="table_link">Brewed Coffee</a></td><td>100</td></tr>
+      <tr><td><img src="capp.png" width="110px"></img></td><td><a href="cappucino.html" class="table_link">Cappucino</a></td><td>120</td></tr>
+      <tr><td><img src="espresso.png" width="120px"></img></td><td><a href="espresso.html" class="table_link">Espresso</a></td><td>120</td></tr>
+      </table>
+    </center>
+    </div>
+    <footer class="footer">
+      = simple footer; whaddup moonstar inc =
+    </footer>
+  </body>
+</html>
